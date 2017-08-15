@@ -1,0 +1,13 @@
+arqsistemasoperativos@gmail.com
+
+kernel:
+
+software-kernel-hardware
+
+Es el componente que actua como interfaz entre software y hardware (nucleo del sis operativo), se encarga de:
+Ubicar un programa en la memoria
+Asignar el tiempo de CPU de un programa
+Hacer de interfaz entre el software y los dispositivos
+Permitir la interacción entre diferentes programas
+(Lo necesita cualquier sis operativo para funcionar).
+Para acceder al hardware utiliza los driver de cada parte.
