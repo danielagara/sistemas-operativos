@@ -1,0 +1,27 @@
+virtualizacion:
+3 CARAC PRINCIPALES:
+fidelidad: debe funcionar y verse igual que una maquina real
+aislamiento: no me va afectar los cambios a la maquina fisica
+rendimiento: deben funcionar igual de bien (no suelen tener la misma funcionalidad, por lo general la virtual tiene menor rendimiento)
+
+ventajas:
+muchas maquinas dentro de una, te conectas como si estuvieras a una compu fisica, cuando en realidad esta simulada
+mismas apps dentro de varias maquinas, al hacer actualizaciones daño solo una por ej, no todas
+se va a repartir el uso de memoria.
+
+importancia: 
+ocupar poco espacio, altos volumenes de datos, varias maquinas y una fisica sola, (se recomienda un proceso por maquina virtual, ej una p base de datos, otra servidor de apps, etc)
+
+hypervisor: nexo entre hardware virtual y fisico, maneja interacciones, gantiza las caracteristicas (arriba), hace la virtualizacion
+
+tipo 1: se comunica con el harware directamente (sin software en el medio) + eficiente
+tipo 2: emula una app sobre el sistema operativo (no full vistualizacion)
+
+creando la maq virtual:
+almacenamiento en unidad de disco duro fisica:
+reservar fijo: desventaja que ocupa mucho espacio de una, ventaja ya me queda reservado el espacio
+reservar dinamico: desventaja si ocupo toda la memoria con otras cosas me quede sin espacio para seguir expandiendome, ventaja va ocupando espacio a medida que es necesario
+osboxes.org maquinas virtuales prearmadas
+
+comandos p agregar:
+touch cambiar hora y fecha, tambien crea el archivo
