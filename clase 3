@@ -1,0 +1,24 @@
+sudo: me permite ejecutar comandos como root
+
+redireccionar con >, cat /etc/passwd > pepi, todo lo de passwd se copia en pepi
+>> con dos se agrega a final del archivo
+
+
+/proc es un directorio que vemos en la raiz, se crea en tiempo de booteo, y no esta almacenado en el disco, si no que en la memoria ram, 
+por lo tanto al apagarse se borra, info del kernel en el momento de la ejecucion
+
+/proc/cpuinfo info de la maquina, todos del file system
+/dev dispositivos
+/pts terminales, partes graficas
+crtl alt f7 vuelve a lo grafico
+
+cat < /dev/pts/0 
+
+w tira varios datos tty, quienes estan conectados a mi tty, etc
+
+; para concatenar comandos, no da bola si el primero salio mal, hace de una el otro
+&& para concatenar comandos, el primero tiene que funcionar si o si, ejecuta hasta que de error
+-v para mostrar como va a haciendo los comandos
+1>nombrearchivo redirecciona la salida a tal archivo, 2>nombrearchivo redirecciona los errores
+echo "LO QUE SEA" muestra el msj entre comillas por pantalla, esta salida tambien se puede redireccionar con > sin mostrar por pantalla
+para redirecc y mostrar por pantalla echo "LO QUE SEA" | tee nombrearchivo 
