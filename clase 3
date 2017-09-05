@@ -34,3 +34,4 @@ sed agregar en parte de texto
 sed -e 's/:/|/g' passwd | more : con la g todas las ocurrencias en cada linea, solo visualmente
 si le agrego a esa linea el -i me lo hace sobre el mismo archivo la modi
 se puede hacer la primera linea y mandarla a otro archivo
+
