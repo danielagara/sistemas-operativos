@@ -22,3 +22,15 @@ w tira varios datos tty, quienes estan conectados a mi tty, etc
 1>nombrearchivo redirecciona la salida a tal archivo, 2>nombrearchivo redirecciona los errores
 echo "LO QUE SEA" muestra el msj entre comillas por pantalla, esta salida tambien se puede redireccionar con > sin mostrar por pantalla
 para redirecc y mostrar por pantalla echo "LO QUE SEA" | tee nombrearchivo 
+
+opciones del grep:
+'^principio' de la linea
+'final$' de la linea
+grep con -n en el numero de linea en el que esta la ocurrencia
+-v es lo contrario a mi busqueda
+
+sed agregar en parte de texto
+
+sed -e 's/:/|/g' passwd | more : con la g todas las ocurrencias en cada linea, solo visualmente
+si le agrego a esa linea el -i me lo hace sobre el mismo archivo la modi
+se puede hacer la primera linea y mandarla a otro archivo
