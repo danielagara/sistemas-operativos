@@ -28,3 +28,4 @@ fisicos a cada grupo creado, ej un grupo de 20 le agrego la particion de 5 del d
 
 no se puede crear mas de 4 particiones primarias, a partir de eso, si quiero seguir agregando, la cuarta se hace extendida CON TODO EL 
 ESPACIO QUE ME SOBRO y las nuevas son logicas, es decir, 1 2 3 PRIMARIAS, 4 EXTENDIDA, 5 6..LOGICAS
+HAY PPROBLEMAS PARA ACHICAR
