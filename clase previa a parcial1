@@ -8,3 +8,6 @@ explicacion primera parte tp: ENTREGA PARA UNA FECHA PREVIA AL SEG PARCIAL
 memorias:
 dentro de la memoria principal esta todo lo que se esta ejecutando en el momento
 dump it y volatility
+
+formato rapido: inicializa todo en 0, pero los datos siguen ahi
+formato lento: inicializa todo en 0, borra todo, direcciones y archivos
