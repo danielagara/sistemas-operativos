@@ -24,7 +24,7 @@ RAID 1-0 o 10 4 discos como minimo, salva la integridad y ademas duplica la capa
 HDFS (google) arma un cluster de discos y se va distribuyendo la info, piso de big data
 RAID 5 paridad en cada uno de los discos, mantiene la info cuando se cae un disco
 LVM expandir una particion que ya tenia definida su tamaño, "particion de tipo lvm", creando grupos y agregandole particiones o discos
-fisicos a cada grupo creado, ej un grupo de 20 le agrego la particion de 5 del disco d, y ahora el grupo es de 25.
+fisicos a cada grupo creado, ej un grupo de 20 le agrego la particion de 5 del disco d, y ahora el grupo es de 25. (repartir espacio)
 
 no se puede crear mas de 4 particiones primarias, a partir de eso, si quiero seguir agregando, la cuarta se hace extendida CON TODO EL 
 ESPACIO QUE ME SOBRO y las nuevas son logicas, es decir, 1 2 3 PRIMARIAS, 4 EXTENDIDA, 5 6..LOGICAS
